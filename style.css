@@ -1,0 +1,65 @@
+:root {
+    --background-color: #F0F2F5;
+    --primary-color: #166FE5;
+    --white: #fff;
+    --grey: #E7E7E7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: var(--background-color);
+    --webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.vermelho {
+    width: 12rem;
+    height: 12rem;
+    background-color: red;
+}
+
+.verde {
+    width: 12rem;
+    height: 12rem;
+    background-color: green;
+}
+
+.amarelo {
+    width: 12rem;
+    height: 12rem;
+    background-color: yellow;  
+}
+
+
